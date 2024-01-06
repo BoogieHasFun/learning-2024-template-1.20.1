@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "learning-2024:block/natural_abs_ore"
+  }
+}
