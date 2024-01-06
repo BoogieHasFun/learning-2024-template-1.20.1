@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "learning-2024",
+	"version": "${version}",
+	"name": "learning-2024",
+	"description": "This is a mod where I follow a tutorial on how to make Fabric mods, nothing speical.. yet :)",
+	"authors": [
+		"boogiehasfun"
+	],
+	"contact": {
+		"homepage": "https://github.com/boogiehasfun",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/learning-2024/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.boogiehasfun.learning2024.Learning2024"
+		],
+		"client": [
+			"net.boogiehasfun.learning2024.Learning2024Client"
+		],
+		"fabric-datagen": [
+			"net.boogiehasfun.learning2024.Learning2024DataGenerator"
+		]
+	},
+	"mixins": [
+		"learning-2024.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
